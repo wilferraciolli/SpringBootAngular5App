@@ -1,12 +1,13 @@
 package com.wiltech.springbootapi;
 
-import java.util.List;
-
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * The interface Employee service.
  */
+@Service
 public interface EmployeeService {
 
     /**
@@ -30,7 +31,8 @@ public interface EmployeeService {
      *
      * @return the list
      */
-    public List findAll();
+//    public List findAll();
+    public List<Employee> findAll();
 
     /**
      * Find by id employee.
