@@ -1,4 +1,4 @@
-package com.wiltechcom.example.springbootapi;
+package com.wiltech.springbootapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
