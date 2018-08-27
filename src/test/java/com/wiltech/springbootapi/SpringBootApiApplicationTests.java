@@ -1,4 +1,4 @@
-package com.wiltechcom.example.springbootapi;
+package com.wiltech.springbootapi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
